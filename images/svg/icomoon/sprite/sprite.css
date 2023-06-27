@@ -1,0 +1,56 @@
+.icon {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-image: url(sprite.svg);
+}
+.discount {
+  width: 32px;
+  height: 32px;
+  background-position: 0 0;
+}
+.icon {
+  width: 32px;
+  height: 32px;
+  background-position: -48px 0;
+}
+.key {
+  width: 32px;
+  height: 32px;
+  background-position: -96px 0;
+}
+.question {
+  width: 32px;
+  height: 32px;
+  background-position: -144px 0;
+}
+.right {
+  width: 32px;
+  height: 32px;
+  background-position: -192px 0;
+}
+.search {
+  width: 32px;
+  height: 32px;
+  background-position: -240px 0;
+}
+.set {
+  width: 32px;
+  height: 32px;
+  background-position: -288px 0;
+}
+.square {
+  width: 32px;
+  height: 32px;
+  background-position: -336px 0;
+}
+.user {
+  width: 32px;
+  height: 32px;
+  background-position: -384px 0;
+}
+.wallet-money {
+  width: 32px;
+  height: 32px;
+  background-position: -432px 0;
+}
+

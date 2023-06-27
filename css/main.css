@@ -1,3 +1,47 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
 body {
-  background-color: red;
+  background-color: #FAFBFF;
+  font-family: "Poppins";
+}
+
+p,
+h1,
+h2 {
+  margin: 0;
+}
+
+.list {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  font-style: normal;
+}
+
+a {
+  text-decoration: none;
+}
+
+.header {
+  background-color: rgb(128, 214, 184);
+}
+
+.main-nav {
+  display: block;
+}
+.main-nav__logo {
+  font-size: 26px;
+}
+
+.container {
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
 }/*# sourceMappingURL=main.css.map */
