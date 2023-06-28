@@ -6,7 +6,13 @@
 .main-nav {
     display: block;
 
+    &__main-nav__link{
+        display: flex;
+    }
+
     &__logo {
         font-size: 26px;
+        display: flex;
+
     }
 }

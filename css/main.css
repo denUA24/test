@@ -34,8 +34,16 @@ a {
 .main-nav {
   display: block;
 }
+.main-nav__main-nav__link {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
 .main-nav__logo {
   font-size: 26px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .container {
@@ -44,4 +52,19 @@ a {
   padding-right: 15px;
   margin-left: auto;
   margin-right: auto;
+}
+@media screen and (min-width: 480px) {
+  .container {
+    max-width: 480px;
+  }
+}
+@media screen and (min-width: 768px) {
+  .container {
+    max-width: 768px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .container {
+    max-width: 1200px;
+  }
 }/*# sourceMappingURL=main.css.map */
