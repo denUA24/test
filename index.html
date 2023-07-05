@@ -5,13 +5,9 @@
   <link href="./css/main.min.css" rel="stylesheet" />
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link
-  rel="stylesheet"
-  href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-  integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
-  crossorigin="anonymous"
-  referrerpolicy="no-referrer"
-/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+    integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -27,8 +23,11 @@
             <use href="./images/svg/sprite.svg#icon-icon"></use>
           </svg>
         </a>
-        <a href="/index.html" class="main-nav__logo">Dashboard</a>
-        <a>v.01</a>
+        <div class="main-nav__wrap">
+          <a href="/index.html" class="main-nav__logo">Dashboard</a>
+          <a class="main-nav__version">v.01</a>
+        </div>
+
         <button class="main-nav__button button">
           <svg width="37" height="37" class="js-open-menu icon-menu">
             <use href="./images/svg/sprite.svg#icon-menu"></use>
@@ -39,14 +38,24 @@
   </header>
 
   <main>
-    <sectio class="section-customers">
-      <h2>Hello Evano 👋🏼,</h2>
-      <div class="customers-border">
-        <h2>All Customers</h2>
-        <h3>Active Members</h3>
+    <section class="section-customers">
+      <div class="container">
+        <h2 class="customers-title">Hello Evano 👋🏼,</h2>
+        <div class="customers-border">
+          <h2>All Customers</h2>
+          <h3>Active Members</h3>
+          <div class="customers-search">
+            <span> <svg width="37" height="37" class=" icon-search">
+                <use href="./images/svg/sprite.svg#icon-search"></use>
+              </svg></span>
+            <input type="text" placeholder="search">
 
+          </div>
+
+        </div>
       </div>
-    </sectio>
+
+    </section>
   </main>
 </body>
 

@@ -1,18 +1,37 @@
 .header {
-    background-color: rgb(128, 214, 184);
-
+  background-color: rgb(128, 214, 184);
 }
 
 .main-nav {
-    display: block;
+  display: flex; 
+  align-items: center;
 
-    &__main-nav__link{
-        display: flex;
-    }
+  &__link {
+    display: flex;
+  }
+  &__wrap {
+    display: flex;
+    align-items: last baseline;
+    margin-left: 8px;
+  }
 
-    &__logo {
-        font-size: 26px;
-        display: flex;
-
-    }
+  &__logo {
+    font-size: 26px;
+    display: flex;
+    letter-spacing: 0.03em;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 1.7;
+    color: #212121;
+  }
+  &__version {
+    font-weight: 500;
+    color: #838383;
+    font-size: 10px;
+    margin-left: 4px;
+  }
+  &__button {
+    margin-left: auto;
+    background-color: inherit;
+  }
 }
